@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "email": "minister.emoven@proton.me",
+      "fullName": "Minister Emoven",
+      "legal fiction": "JOHN MICHAEL DOE",
+      "idNumber": "ME-01928-UK",
+      "kcAccount": "KC-8849-01",
+      "registeredAt": "2026-04-10T11:20:00.000Z",
+      "serviceHours": 5,
+      "serviceOffer": "Farming & Food Cultivation at Leeds Community Garden",
+      "savingsMonthly": 780,
+      "donationMonthly": 78
+    },
+    {
+      "id": "user-2",
+      "email": "meblazestanely@gmail.com",
+      "fullName": "Minister Stanley",
+      "legal fiction": "STANLEY BLAZE MEBLA",
+      "idNumber": "ME-20948-EL",
+      "kcAccount": "KC-2094-12",
+      "registeredAt": "2026-05-19T19:59:00.000Z",
+      "serviceHours": 5,
+      "serviceOffer": "Sovereign Law Consultation and Digital Sovereign Portals",
+      "savingsMonthly": 1200,
+      "donationMonthly": 120
+    }
+  ],
+  "aoc": [
+    {
+      "id": "aoc-101",
+      "firstName": "John",
+      "middleName": "Michael",
+      "lastName": "Doe",
+      "email": "minister.emoven@proton.me",
+      "accounts": "Barclays A/C 994857 and Council Tax Acc 09384",
+      "reference": "Referred by Minister Mervyn",
+      "date": "2026-04-10",
+      "rollNumber": "ULCT-UK-2026-0081",
+      "thumbprintImg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='none' stroke='red' stroke-width='3'/></svg>"
+    },
+    {
+      "id": "aoc-102",
+      "firstName": "Stanley",
+      "middleName": "Blaze",
+      "lastName": "Mebla",
+      "email": "meblazestanely@gmail.com",
+      "accounts": "British Gas A/C BG-99381-LH, Leeds Council Tax 09328472",
+      "reference": "Direct Sovereign Access",
+      "date": "2026-05-19",
+      "rollNumber": "ULCT-EL-2026-0924",
+      "thumbprintImg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><path d='M30,50 Q50,20 70,50 T110,50' fill='none' stroke='red' stroke-width='2'/></svg>"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1",
+      "userId": "user-1",
+      "fullName": "Minister Emoven",
+      "email": "minister.emoven@proton.me",
+      "liabilities": {
+        "councilTax": 180,
+        "electricity": 220,
+        "gas": 150,
+        "water": 80,
+        "food": 150,
+        "other": 0
+      },
+      "totalSpent": 780,
+      "serviceHours": 5,
+      "serviceOffer": "Farming & Food Cultivation at Leeds Community Garden",
+      "serviceWhereWhen": "Saturdays 9am-2pm, Leeds LS9",
+      "status": "APPROVED",
+      "dischargedDate": "2026-04-11T12:00:00.000Z",
+      "refNo": "KC-CLAIM-0012"
+    },
+    {
+      "id": "claim-2",
+      "userId": "user-2",
+      "fullName": "Minister Stanley",
+      "email": "meblazestanely@gmail.com",
+      "liabilities": {
+        "councilTax": 250,
+        "electricity": 320,
+        "gas": 240,
+        "water": 110,
+        "food": 200,
+        "other": 80
+      },
+      "totalSpent": 1200,
+      "serviceHours": 5,
+      "serviceOffer": "Sovereign Law Consultation and Digital Sovereign Portals",
+      "serviceWhereWhen": "Wednesdays 12pm-5pm online",
+      "status": "PENDING",
+      "dischargedDate": null,
+      "refNo": "KC-CLAIM-0948"
+    }
+  ],
+  "harassment": [
+    {
+      "id": "harr-1",
+      "emovenId": "ME-01928-UK",
+      "kcAccount": "KC-8849-01",
+      "email": "minister.emoven@proton.me",
+      "phone": "+447700900077",
+      "debtorType": "Corporate Agency",
+      "corpName": "BRITISH GAS PLC",
+      "fictionNumber": "BG-9993-81203",
+      "corpContact": "litigation@britishgas.co.uk",
+      "territory": "United Kingdom",
+      "details": "Sent automated threat of entry regarding unsanctioned smart meter installation, despite multiple rebuttals of presumed consent.",
+      "noticeDate1": "2026-04-15",
+      "noticeDate2": "2026-05-01",
+      "status": "AOC_SERVED"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "meet-1",
+      "name": "Minister Emoven",
+      "email": "minister.emoven@proton.me",
+      "borough": "Leeds Outer West",
+      "country": "United Kingdom",
+      "state": "West Yorkshire",
+      "postcode": "LS28 6PT",
+      "subject": "Community Garden Space Assembly",
+      "message": "We need to coordinate the seeds shipment from Greece (Ellas) under the ULC Trust maritime transport.",
+      "date": "2026-05-20"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "feed-1",
+      "name": "Minister Sean",
+      "email": "sean@proton.me",
+      "message": "I discharged my Council Tax liability completely after serving the Assignment of Consent on York Council! In Truth We Trust, direct democracy works.",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "feed-2",
+      "name": "Minister Maria (Athens)",
+      "email": "mariael@proton.me",
+      "message": "Enacting Ministry of Wealth Ellas protocols freed my family property in Ikaria from a fraudulent corporate levy. Universal law resides in our DNA!",
+      "date": "2026-05-18"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "tx-1",
+      "date": "2026-05-19T18:45:00.000Z",
+      "sender": "Global Trust Pool",
+      "recipient": "Minister Emoven (Leeds)",
+      "type": "conversion",
+      "amountKC": 7800,
+      "details": "Discharged monthly liabilities (Gas, Electricity, Council Tax) - Backed by 5h Farming Exchange",
+      "equivalentSlaveTokens": "£780.00"
+    },
+    {
+      "id": "tx-2",
+      "date": "2026-05-19T19:00:00.000Z",
+      "sender": "Minister Emoven",
+      "recipient": "ULC Trust Community Chest",
+      "type": "donation",
+      "amountKC": 780,
+      "details": "10% Energy Return to Fund People's Protection Patrol",
+      "equivalentSlaveTokens": "£78.00"
+    },
+    {
+      "id": "tx-3",
+      "date": "2026-05-19T19:22:00.000Z",
+      "sender": "Global Trust Pool",
+      "recipient": "Minister Alex (Wales)",
+      "type": "conversion",
+      "amountKC": 5400,
+      "details": "Discharged Council Tax & Water Bill - Backed by 5h Local Woodworking Support",
+      "equivalentSlaveTokens": "£540.00"
+    },
+    {
+      "id": "tx-4",
+      "date": "2026-05-19T19:30:00.000Z",
+      "sender": "Minister Alex",
+      "recipient": "ULC Trust Community Chest",
+      "type": "donation",
+      "amountKC": 540,
+      "details": "10% Energy Contribution to York Community Cafe",
+      "equivalentSlaveTokens": "£54.00"
+    }
+  ]
+}

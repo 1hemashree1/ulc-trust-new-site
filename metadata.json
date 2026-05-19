@@ -1,0 +1,6 @@
+{
+  "name": "ULC Trust Platform",
+  "description": "Universal Law Community Trust (ULCT) sovereign community portal supporting rights restoration, Assignment of Consent (AoC), and real-time Kindness Credits (KC) claim verification and ledger.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
